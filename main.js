@@ -4,7 +4,7 @@ var http = require('http');
 // configure our HTTP server
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("Nguyen Quoc Tuan-19120702 && Tran Viet Tuan-19120705 Project CI/CD\n");
+  response.end("19120702-19120705 test Project CI/CD\n");
 
 });
 
