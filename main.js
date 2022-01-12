@@ -5,6 +5,8 @@ var http = require('http');
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
   response.end("Nguyen Quoc Tuan-19120702 && Tran Viet Tuan-19120705 \n");
+  response.writeHead(200, {"Content-Type": "text/plain"});
+  response.end("Nguyen Quoc Tuan-19120702 && Tran Viet Tuan-19120705 \n");
 });
 
 // listen on localhost:8000
